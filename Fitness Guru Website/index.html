@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Guru Fitness AI</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        /* Navbar styles */
+        nav {
+            background-color: #007bff;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        /* Header styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        /* Main section styles */
+        .main-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .main-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .main-section p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .features div {
+            max-width: 300px;
+            text-align: left;
+        }
+        .features h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .features p {
+            color: #555;
+        }
+        /* Visit AI section styles */
+        .visit-ai-section {
+            background-color: #f9f9f9;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .visit-ai-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .visit-ai-form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .visit-ai-form input {
+            width: calc(100% - 80px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            font-size: 1em;
+        }
+        .visit-ai-form button {
+            width: 80px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            outline: none;
+            font-size: 1em;
+        }
+        .visit-ai-form button:hover {
+            background-color: #0056b3;
+        }
+        /* Contact section styles */
+        .contact-section {
+            background-color: #343a40;
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 1;
+            margin-top: 40px;
+        }
+        /* Logo styles */
+        .logo {
+            display: inline-block;
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .logo-footer {
+            display: inline-block;
+            height: 30px;
+            width: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://congenial-carnival-6x9grqwprgj3r6qx-5000.app.github.dev/login">Visit the AI</a></li>
+        
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <img src="Black And White Aesthetic Minimalist Modern Simple Typography Coconut Cosmetics Logo (1).png" alt="Code Guru Fitness AI Logo" class="logo">
+            <h1>Fitness Guru</h1>
+            <p>Your personal fitness companion</p>
+        </div>
+    </header>
+
+    <section id="about" class="main-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Fitness Guru AI, your ultimate fitness companion! At Fitness Guru AI, we believe in empowering individuals to reach their health and fitness goals with personalized, data-driven insights. Whether you're a beginner taking the first steps on your fitness journey or a seasoned athlete striving for peak performance, we're here to support you every step of the way.</p>
+            <h2>Our Mission</h2>
+            <p>Our mission is simple: to make fitness accessible, engaging, and effective for everyone. We leverage cutting-edge artificial intelligence to provide tailored workout plans, nutrition advice, and real-time progress tracking. Our goal is to help you achieve lasting results and a healthier, happier life.</p>
+            <h2>Our Technology</h2>
+            <p>Fitness Guru AI uses advanced machine learning algorithms to analyze your unique fitness profile and adapt to your changing needs. By integrating data from wearable devices, fitness apps, and user input, our AI delivers precise recommendations that evolve as you do. This means every workout, meal plan, and recovery strategy is optimized specifically for you.</p>
+            <h2>Why choose Fitness Guru</h2>
+            <p2>Personalized Workouts: No more one-size-fits-all routines. Get workouts that match your goals, preferences, and fitness level.
+                Comprehensive Nutrition Guidance: Receive meal plans and dietary advice tailored to fuel your body and enhance your performance.
+                Real-Time Tracking: Monitor your progress with detailed analytics and stay motivated with regular feedback and adjustments.
+                Community Support: Join a vibrant community of like-minded individuals and share your journey, tips, and successes.
+                At Fitness Guru AI, we're more than just a fitness app—we're your partner in health. Together, let's break boundaries, set new personal bests, and make every day a step towards a healthier you.
+                
+                Join us today and discover the future of fitness with Fitness Guru AI!</p2>
+        </div>
+    </section>
+
+    <section id="services" class="main-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="features">
+                <div>
+                    <h3>Personalized Workouts</h3>
+                    <p>Tailored to your fitness level and goals.</p>
+                </div>
+                <div>
+                    <h3>Nutrition Guidance</h3>
+                    <p>Custom meal plans to fuel your workouts.</p>
+                </div>
+                <div>
+                    <h3>Fitness Score</h3>
+                    <p>Have your Fitness Graded by our AI.</p>
+                </div>
+                <div>
+                    <h3>24/7 Support</h3>
+                    <p>Always there to help you reach your goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required><br>
+                    <input type="email" name="email" placeholder="Your Email" required><br>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea><br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="Black And White Aesthetic Minimalist Modern Simple Typography Coconut Cosmetics Logo (1).png" alt="Code Guru Fitness AI Logo" class="logo-footer">
+            <p>&copy; 2024 Code Guru Fitness AI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
